@@ -8,9 +8,9 @@ const main = async () => {
     });
     console.log("MIGRATIONS COMPLETED!");
   } catch (error) {
-    console.log("Error during migartions", error);
-    process.exit(1)
+    console.log("ERROR DURING MIGRATION!", error);
+    process.exit(1);
   }
 };
 
-main()
+main();
