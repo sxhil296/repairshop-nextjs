@@ -1,7 +1,7 @@
 import BackButton from "@/components/BackButton";
 import { getCustomer } from "@/lib/queries/getCustomer";
 
-export default async function CustomerPageForm({
+export default async function CustomerFormPage({
   searchParams,
 }: {
   searchParams: Promise<{ [key: string]: string | undefined }>;
